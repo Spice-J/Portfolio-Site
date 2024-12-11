@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "This is my portfolio site built to display projects and skills that I develop to potential employers. It is made with HTML CSS/SCSS and Javascript. I will continually update links and replace stock images  with projects as I complete them.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -3,9 +3,11 @@ const sectBtns = document.querySelectorAll('.controlls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
 
+
+
 function PageTransitions() {
     //button click active class
-    for (let i = 0; i< sectBtn.length; i++){
+    for (let i = 0; i < sectBtn.length; i++){
         sectBtn[i].addEventListener('click', function(){
             let currentBtn = document.querySelectorAll('.active-btn');
             currentBtn[0].className = currentBtn[0].className.replace('active-btn', '')
@@ -63,7 +65,7 @@ function PageTransitions() {
         })};
     }
 
-    //show live website descrtiption
+    //show live website description
     const activeIcon2 = document.querySelectorAll('.code-icon2')
 
     for (let i = 0; i < activeIcon2.length; i++) {
